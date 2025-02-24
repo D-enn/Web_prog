@@ -1,1 +1,1 @@
- https://D-enn.github.io/название_ветки/cv.md
+ https://D-enn.github.io/Markdown/cv.md
