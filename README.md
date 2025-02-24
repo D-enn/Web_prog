@@ -1,1 +1,1 @@
-d-enn.github.io
+https://D-enn.github.io/название_ветки/cv
