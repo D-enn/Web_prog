@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- задание кодировки -->
+    <meta charset="UTF-8">
+	  <meta name="description" content="Резюме">
+	  <meta name="author" content="Ульяна Денисенко">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме программиста</title>
+	<style>
+	code{
+	
+	color:white;
+	}
+	ul{
+	display: inline-block;
+  text-align: left;
+	}
+	ol{
+	display: inline-block;
+  text-align: left;
+	}
+	</style>
+</head>
+<body style="text-align: center;">
+<header>
+    <nav>
+	<ul>
+      <li>  <a href="#about">О себе</a> |</li>
+      <li>  <a href="#contacts">Контакты</a> |</li>
+      <li>  <a href="#skills">Навыки</a> |</li>
+       <li> <a href="#english">Уровень английского</a> |</li>
+       <li> <a href="#courses">Пройденные курсы и тренинги</a> |</li>
+      <li>  <a href="#experience">Опыт работы</a> |</li>
+       <li>  <a href="#examples">Примеры кода</a> |</li>
+      <li>  <a href="#projects">Проекты</a></li>
+		</ul>
+    </nav>
+</header>
+    <h1><span style = "color:purple;">Денисенко </span>Ульяна</h1>
+							<figure  style="text-align: center;">
+                <figcaption>Фото кандидата</figcaption>
+                <img src="image_1_lab_1.png" alt="Моя фотография" width="200" height="200">
+            </figure>
+    
+
+    <div id="about">
+        <h2>О себе</h2>
+        <p>Я начинающий программист с большим интересом к <br>веб-разработке и программированию.</p>
+    </div>
+
+    <div id="contacts">
+	<h2>Контакты</h2>
+	<address>
+        
+        <p>Email: denni@gmail.com</p>
+        <p>Телефон: +1234567890</p>
+		</address>
+    </div>
+
+    <div id="skills">
+        <h2>Навыки</h2>
+        <ol>
+            <li>HTML</li>
+            <li>C++</li>
+            <li>Python</li>
+        </ol>
+    </div>
+
+    <div id="english">
+        <h2>Уровень английского</h2>
+        <p>Upper Intermediate <b>(B2)</b></p>
+    </div>
+
+    <div id="courses">
+        <h2>Пройденные курсы и тренинги</h2>
+        <ul>
+            <li>Курс "Основы веб-разработки"</li>
+            <li>Тренинг по Python</li>
+        </ul>
+    </div>
+
+    <div id="experience">
+        <h2>Опыт работы</h2>
+        <p>Работал над несколькими проектами, включая:</p>
+        <ul>
+            <li>Создание веб-приложений на HTML и JavaScript</li>
+            <li>Работа с базами данных и серверными технологиями</li>
+        </ul>
+    </div>
+	<details>
+	<summary>Примеры кода</summary>
+	    <div id="examples" style = "background-color:black;">
+        <p>Некоторые из моих примеров кода:</p>
+        <pre>
+            <code>
+                // Пример JavaScript кода
+                function sayHello() {
+                    alert("Привет, мир!");
+                }
+
+                sayHello();
+            </code>
+        </pre>
+        <pre>
+            <code>
+                // Пример JavaScript кода
+                function add(a, b) {
+                    return a + b;
+                }
+
+                console.log(add(2, 3));
+            </code>
+        </pre>
+        <pre>
+            <code>
+                // Пример JavaScript кода
+                function greetUser(name) {
+                    console.log("Привет, " + name + "!");
+                }
+
+                greetUser("Иван");
+            </code>
+        </pre>
+    </div>
+	</details>
+
+
+	    <div id="projects">
+        <h2>Проекты</h2>
+        <p>Некоторые из моих проектов:</p>
+        <p>CV</p>
+    </div>
+</body>
+<script>const tags = document.getElementsByTagName('*');
+const uniqueTags = {};
+
+
+for (let i = 0; i < tags.length; i++) {
+  const tag = tags[i].tagName;
+  uniqueTags[tag] = (uniqueTags[tag] || 0) + 1;
+}
+
+
+console.log(Object.keys(uniqueTags));
+</script>
+</html>
+
+
+
+
+
